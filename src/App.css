@@ -1,0 +1,36 @@
+/* テスト用：これが動けば読み込みはOK */
+body {
+  background-color: #f0f4f8 !important;
+}
+
+/* ログイン画面の箱をカスタマイズ */
+[data-amplify-authenticator] {
+  --amplify-colors-brand-primary-80: #00b4d8;
+  --amplify-colors-brand-primary-90: #0096c7;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ログイン後のメイン画面 */
+main {
+  background: white;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0077b6;
+}
+
+button {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
